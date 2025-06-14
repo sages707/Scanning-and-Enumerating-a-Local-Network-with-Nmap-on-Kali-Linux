@@ -23,7 +23,9 @@ sudo apt-get update && sudo apt-get install nmap
 # Process
 
 **Scan Number 1: Basic Network Scan**
+
 Command: nmap 192.168.231.0/24 (List of active devices with IP and Port) 
+
 **Note you should use your own IP here, use command: ip a in order to obtain the IP**
 
 Expected Output:
@@ -31,6 +33,7 @@ Expected Output:
 <img width="690" alt="Regular Nmap" src="https://github.com/user-attachments/assets/96a381f2-02e8-485a-ba66-ccb842889a99" />
 
 **Scan Number 2: Scanning for a specific port**
+
 Command: nmap -p 80 192.168.231.0/24 (List of devices with specific port ie. 80)
 
 Expected Output:
@@ -38,6 +41,7 @@ Expected Output:
 <img width="589" alt="Nmap With Port" src="https://github.com/user-attachments/assets/2caedca5-fef3-4257-994c-b6f0d54be8f0" />
 
 **Scan Number 3: Service Version Detection**
+
 Command: nmap -sV 192.168.231.0/24 (Lists all of the ports with their service and version details)
 
 Expected Output:
@@ -45,6 +49,7 @@ Expected Output:
 <img width="1357" alt="Nmap with sV" src="https://github.com/user-attachments/assets/c694a08e-86e1-438e-9ab2-9b16977eff65" />
 
 **Scan Number 4: Operation System Detection**
+
 Command: sudo nmap -O 192.168.231.0/24 (Lists the operating systems of the listed networks)
 
 Expected Output:
@@ -52,6 +57,7 @@ Expected Output:
 <img width="839" alt="Nmap with -O" src="https://github.com/user-attachments/assets/8136a767-2de1-42b2-a2b0-4142e946eb1e" />
 
 **Scan Number 5: Aggressive Scan**
+
 Command: sudo nmap -A 192.168.231.0/24 (Lists everything, including OS, version, scripts and traceroute)
 
 Expected Output: 
