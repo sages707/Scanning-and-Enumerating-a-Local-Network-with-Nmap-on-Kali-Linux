@@ -32,7 +32,7 @@ Scan Number 2: Scanning for a specific port
 Command: nmap -p 80 192.168.231.0/24 (List of devices with specific port ie. 80)
 
 Expected Output:
-|<img width="589" alt="Nmap With Port" src="https://github.com/user-attachments/assets/2caedca5-fef3-4257-994c-b6f0d54be8f0" />
+<img width="589" alt="Nmap With Port" src="https://github.com/user-attachments/assets/2caedca5-fef3-4257-994c-b6f0d54be8f0" />
 
 Scan Number 3: Service Version Detection
 Command: nmap -sV 192.168.231.0/24 (Lists all of the ports with their service and version details)
