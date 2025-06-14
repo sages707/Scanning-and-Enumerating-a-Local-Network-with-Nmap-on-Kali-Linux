@@ -23,7 +23,7 @@ sudo apt-get update && sudo apt-get install nmap
 # Process
 
 *Scan Number 1: Basic Network Scan*
-Command: nmap 192.168.231.0/24 (List of active devices with IP and Port)
+Command: nmap 192.168.231.0/24 (List of active devices with IP and Port) *Note you should use your own IP here, use command: ip a in order to obtain the IP*
 
 Expected Output:
 
@@ -33,6 +33,7 @@ Expected Output:
 Command: nmap -p 80 192.168.231.0/24 (List of devices with specific port ie. 80)
 
 Expected Output:
+
 <img width="589" alt="Nmap With Port" src="https://github.com/user-attachments/assets/2caedca5-fef3-4257-994c-b6f0d54be8f0" />
 
 *Scan Number 3: Service Version Detection*
