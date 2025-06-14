@@ -8,3 +8,16 @@ This project demonstrates how to perform network scanning and enumeration using 
 - Understand different types of Nmap scans
 - Enumerate services and detect OS and device types
 - Develop a basic understanding of local network topologies
+
+# Environment & Tools
+• Base OS: Kali Linux 2023.x (Debian-based)
+• Virtualization: VMware Workstation / VirtualBox (if applicable)
+• Network Setup: Local Area Network (Wi-Fi or Ethernet)
+• Main Tool: Nmap 7.94
+
+# Installation
+
+Nmap is preinstalled within Kali Linux. To verify the installation use: 
+sudo apt-get update && sudo apt-get install nmap
+
+# Process
